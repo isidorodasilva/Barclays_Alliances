@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group_logo" translatesAutoresizingMaskIntoConstraints="NO" id="tXw-N4-qmb">
+                                <rect key="frame" x="144" y="506" width="86" height="141"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buy-99-89c">
+                                <rect key="frame" x="122" y="141" width="131" height="93"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Alliances">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="10" name="LucidaGrande"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="10" name="STIXIntegralsUp-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Partners">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="10" name="LucidaGrande"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.74580866099999998" green="0.0" blue="0.15727019310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="buy-99-89c" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="122" id="8hg-rb-FwV"/>
+                            <constraint firstAttribute="trailing" secondItem="buy-99-89c" secondAttribute="trailing" constant="122" id="D9H-EV-eMu"/>
+                            <constraint firstAttribute="trailing" secondItem="tXw-N4-qmb" secondAttribute="trailing" constant="145" id="FAA-w4-G8U"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="tXw-N4-qmb" secondAttribute="bottom" constant="20" id="Mxs-av-zCn"/>
+                            <constraint firstItem="tXw-N4-qmb" firstAttribute="top" secondItem="buy-99-89c" secondAttribute="bottom" constant="272" id="Ugf-ec-i41"/>
+                            <constraint firstItem="tXw-N4-qmb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="144" id="lvP-O6-EJ5"/>
+                            <constraint firstItem="tXw-N4-qmb" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="486" id="rwW-dU-vbi"/>
+                            <constraint firstItem="buy-99-89c" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="121" id="upA-BM-m0g"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Group_logo" width="172" height="172"/>
+    </resources>
+</document>
